@@ -16,7 +16,7 @@ while True:
     # 보기 출력
     for idx in range(0, 9):
         print(results[idx], end='\t')
-        idx += 1
+        idx+=1
         if idx % 3 == 0:
             print()
 
